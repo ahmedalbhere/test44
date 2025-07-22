@@ -836,64 +836,56 @@ p {
   align-items: center;
   justify-content: center;
 }
-
-.search-btn
 /* استبدل قسم الخلفيات في ملف styles.css بهذا الكود */
 
-/* خلفية الصفحة الرئيسية */
+/* خلفية الصفحة الرئيسية - مقص وحلاقة مصرية */
 .role-selection {
-  background: #f8f5f2 url('https://www.google.com/imgres?q=%D8%B5%D9%88%D8%B1%D9%87%20%D8%AD%D9%84%D8%A7%D9%82%20%D8%B5%D9%88%D8%B1%20%D9%85%D8%AC%D8%A7%D9%86%D9%8A%D9%87&imgurl=https%3A%2F%2Fimg.lovepik.com%2Fpng%2F20230929%2F1998-barber-shop-scissors-decorative-elements-decoration-cartoon-scissors_19059_wh1200.png&imgrefurl=https%3A%2F%2Fsa.lovepik.com%2Fimages%2Fpng-barber-shop.html&docid=5TdBwAAqKAuN1M&tbnid=ksQ-rc33iebpeM&vet=12ahUKEwjEsOW-pNCOAxVWdqQEHbxsKHAQM3oECBoQAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwjEsOW-pNCOAxVWdqQEHbxsKHAQM3oECBoQAA') no-repeat center center;
+  background: #f5f1e6 url('https://i.imgur.com/JjQ8WzA.jpg') no-repeat center center;
   background-size: cover;
 }
 
-/* خلفية شاشة تسجيل الدخول للزبون */
+/* خلفية شاشة الزبون - أدوات حلاقة تقليدية */
 #clientLogin {
-  background: #f8f5f2 url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+  background: #f5f1e6 url('https://i.imgur.com/MsK3L5p.jpg') no-repeat center center;
   background-size: cover;
 }
 
-/* خلفية شاشة تسجيل الدخول للحلاق */
+/* خلفية شاشة الحلاق - صالون حلاقة مصري قديم */
 #providerLogin {
-  background: #f8f5f2 url('https://images.unsplash.com/photo-1581337204873-ef36aa186caa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+  background: #f5f1e6 url('https://i.imgur.com/V4y9XbR.jpg') no-repeat center center;
   background-size: cover;
 }
 
-/* خلفية لوحة تحكم الزبون */
+/* خلفية لوحة الزبون - مشط ومقص تراثي */
 #clientDashboard {
-  background: #f8f5f2 url('https://images.unsplash.com/photo-1605497788054-6f9e6b7a9c1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+  background: #f5f1e6 url('https://i.imgur.com/ZNv7Q2O.jpg') no-repeat center center;
   background-size: cover;
 }
 
-/* خلفية لوحة تحكم الحلاق */
+/* خلفية لوحة الحلاق - أدوات حلاقة نحاسية */
 #providerDashboard {
-  background: #f8f5f2 url('https://images.unsplash.com/photo-1599351431202-1e0f0137899a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+  background: #f5f1e6 url('https://i.imgur.com/9pLmWtE.jpg') no-repeat center center;
   background-size: cover;
 }
 
-/* تحسينات للوضوح */
+/* تحسينات التصميم المصري */
 .login-box,
-.provider-card,
-.queue-item,
-.current-booking,
-.rating-container {
-  background-color: rgba(255, 255, 255, 0.95);
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+.provider-card {
+  background-color: rgba(255, 255, 255, 0.93);
+  border: 1px solid #d4af37; /* لون ذهبي تراثي */
+  border-radius: 0;
 }
 
-/* تعديلات الألوان للتناسق */
-.role-btn.client-btn {
-  background-color: #5d4037;
+.role-btn {
+  border-radius: 0;
+  font-family: 'Tajawal', sans-serif;
 }
 
-.role-btn.barber-btn {
-  background-color: #3e2723;
-}
-
+/* ألوان مصرية تراثية */
 .btn-primary {
-  background-color: #5d4037;
+  background-color: #c19a6b; /* لون نحاسي */
 }
 
-.btn-primary:hover {
-  background-color: #3e2723;
+.btn-danger {
+  background-color: #8b0000; /* لون أحمر داكن */
 }
