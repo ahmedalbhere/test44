@@ -838,3 +838,72 @@ p {
 }
 
 .search-btn
+/* أضف هذه الأنماط في ملف styles.css */
+
+/* خلفيات ثابتة بدون تأثيرات حركية */
+.role-selection {
+  background: #f5f5f5 url('https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#clientLogin {
+  background: #f5f5f5 url('https://images.unsplash.com/photo-1520338661084-680395057c93?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#providerLogin {
+  background: #f5f5f5 url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#clientDashboard {
+  background: #f8f9fa url('https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#providerDashboard {
+  background: #f8f9fa url('https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* تحسينات للأداء والرؤية */
+.login-box,
+.provider-card,
+.queue-item,
+.current-booking,
+.rating-container {
+  background-color: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.role-selection h1,
+.login-box h2,
+.header-title {
+  color: #2b2d42;
+  text-shadow: none;
+}
+
+/* إزالة جميع التأثيرات الحركية */
+.login-box {
+  animation: none;
+}
+
+/* تحسينات للسرعة */
+* {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* تقليل تأثيرات الانتقال */
+.btn, .role-btn {
+  transition: opacity 0.2s ease;
+}
+
+.btn:hover, .role-btn:hover {
+  opacity: 0.9;
+}
